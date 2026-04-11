@@ -1,0 +1,18 @@
+# Sensitive files (never commit these)
+secret.key
+master_login.json
+app_password.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit cache
+.streamlit/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
