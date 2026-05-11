@@ -154,7 +154,7 @@ def update_password():
     if not pwd:
         length = int(input("Enter desired password length: "))
         pwd = generate_password(length)
-        print(f"Generated password: {pwd}")
+        print("Password: ********")
 
     data[domain] = pwd
     write_encrypted_json(PASSWORD_FILE, data)
