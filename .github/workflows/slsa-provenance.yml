@@ -1,3 +1,5 @@
+# VS Code may show a false warning here because this workflow uses remote reusable workflow that defines its own inputs.
+
 name: SLSA Provenance
 
 on:
